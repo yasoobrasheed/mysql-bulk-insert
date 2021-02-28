@@ -1,0 +1,29 @@
+{
+  "name": "mysql-bulk-insert",
+  "version": "1.0.0",
+  "description": "insert millions of records into MySQL with ease",
+  "main": "index.js",
+  "scripts": {
+    "migrate:make": "npx knex migrate:make --cwd='./src/db/migrations'",
+    "migrate:latest": "npx knex migrate:latest --cwd='./src/db/migrations'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasoobrasheed/mysql-bulk-insert.git"
+  },
+  "author": "Yasoob Rasheed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasoobrasheed/mysql-bulk-insert/issues"
+  },
+  "homepage": "https://github.com/yasoobrasheed/mysql-bulk-insert#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/cli": "^7.13.0",
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.18",
+    "mysql": "^2.18.1"
+  }
+}
