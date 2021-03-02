@@ -2,9 +2,9 @@ module.exports = {
   development: {
     client: "mysql",
     connection: {
-      host: process.env.LOCAL_DATABASE_HOST,
-      user: process.env.LOCAL_DATABASE_USER,
-      password: process.env.LOCAL_DATABASE_PASSWORD,
+      host: "127.0.0.1",
+      user: "root",
+      password: "7l3t6xAV65zrIthR*vKa",
       database: "bulk_schema"
     },
     pool: {
